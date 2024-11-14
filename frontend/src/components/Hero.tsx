@@ -10,7 +10,7 @@ import { User as UserIcon } from "lucide-react";
 export default function Hero() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen relative overflow-x-hidden">
-      {/* Profile Icon */}
+      {/* Profile Icon 
       <div className="absolute top-4 right-4 z-50">
         <Link href="/profile" className="cursor-pointer">
           <HoverBorderGradient
@@ -21,6 +21,7 @@ export default function Hero() {
           </HoverBorderGradient>
         </Link>
       </div>
+      */}
 
       <motion.div
         initial={{ y: -10, opacity: 0, filter: "blur(5px)" }}
